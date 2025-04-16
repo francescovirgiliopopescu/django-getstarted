@@ -1,0 +1,14 @@
+{
+  // Other settings...
+  "[html]": {
+    "editor.formatOnSave": false
+  },
+  "[jinja-html]": {
+    "editor.formatOnSave": false
+  },
+  "files.associations": {
+    "*.html": "html",       // for generic HTML
+    "*.jinja": "jinja-html",
+    "*.j2": "jinja-html"
+  }
+}
