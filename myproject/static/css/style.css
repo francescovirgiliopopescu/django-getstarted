@@ -18,6 +18,10 @@ h1, p {
 }
 
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   padding: 1rem;
   background-color: #44b78b;
   color: white;
