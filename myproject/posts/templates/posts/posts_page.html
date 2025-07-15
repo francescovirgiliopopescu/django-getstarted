@@ -2,6 +2,7 @@
 {% block title %}{{ post.title }}{% endblock title %}
 {%block content %}
   <section>
+    <img src="{{ post.banner.url }}" alt="{{ post.title }}" style="width:100%; height:auto;">
     <h1>{{ post.title }}</h1>
     <h2>{{ post.title }}</h2>
     <p>{{ post.date }}</p>
